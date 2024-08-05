@@ -133,8 +133,9 @@ onUpdated(() => {
 		display: table-cell;
 	}
 	.imagen-cel{
-		width: 85%;
-		top: 10px;
+		width: 65%;
+		left: 30px;
+		top: -59px;
 		margin: 20px;
 		position: absolute;
 	}

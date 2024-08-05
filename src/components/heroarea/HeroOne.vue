@@ -118,8 +118,8 @@ onMounted(() => {
 .robot-registro{
 	width: 55%;
     position: absolute;
-    top: -120px;
-    left: 60px;
+    top: -150px;
+    left: 80px;
 }
 }
 

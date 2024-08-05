@@ -25,21 +25,32 @@ onUpdated(() => {
 
 <template>
     <div class="achievement-area">
- 		<div class="overlay-2"></div>
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-lg-3 col-md-6 col-sm-6"
-				v-for="cn in counter.slice(0,4)" :key="cn.id"
-				>
- 					<div class="single-counter-box">
- 						<div class="fact-icon">
- 							<i :class="cn.icon"></i>
- 						</div>
- 						<p class="counter-number"><span>{{ cn.number }}</span></p>
- 						<h6>{{ cn.title }}</h6>
- 					</div>
- 				</div> 				
- 			</div>
- 		</div>
+ 		  <h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2> 
  	</div>
-</template>
+</template> 
+
+<style scoped>
+
+
+@media (max-width: 767px) {
+	.title{
+	font-size: 18px;
+	position: absolute;
+  text-align: center;
+    top: 230px;
+    left: 10px;
+	color: #ffffff;
+	
+}
+}
+@media (min-width: 768px) {
+.title{
+	font-size: 30px;
+	position: absolute;
+  text-align: center;
+    top: 230px;
+    left: 200px;
+	color: #ffffff;
+}
+}
+</style>

@@ -15,11 +15,12 @@ TestimonialOne, ChooseOne, BlogOne, CTAOne, } from "../components";
     
     <ServicesOne/>
     <FeatureOne/>
+    
     <CounterOne/>
     <ProjectOne/>
-    <TestimonialOne/>
-    <ChooseOne/>
+    <!--TestimonialOne/> ---->
+    <!----ChooseOne/>
     <BlogOne/>
-    <CTAOne/>
+    <CTAOne/> --->
     
 </template>

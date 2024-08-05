@@ -47,7 +47,7 @@
  @media (max-width: 767px) {
 	h1{
 	top: -60px;
-	left: -80px;
+	left: -10px;
 	margin: 60px;
 	text-align: center;
 	font-size: 19px;
@@ -55,12 +55,14 @@
 	color: #006fff;
 }
 .h2-titulo{
+	top: -190px;
 	left: -10px;
 	color: #006fff;
 	display: flex;
         align-items: center;
 		font-size: 18px;
 	margin: 1px;
+	white-space: nowrap;
 	
 }
 .punto {
@@ -74,11 +76,19 @@
 		display: table-cell;
 	}
 	.imagen-cel{
-		width: 85%;
-		top: -190px;
+		left: 100px;
+		width: 50%;
+		top: -20px;
 		margin: 20px;
+		margin: 10px;
 		position: absolute;
 	}
+	p{
+	margin: 4px;
+	top: -190px;
+	left: 10px;
+	color: #313131;
+}
 
  }
 
