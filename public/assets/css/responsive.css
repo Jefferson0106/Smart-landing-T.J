@@ -5,7 +5,7 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.single-slide-item h1 {
-		font-size: 70px;
+		font-size: 50px;
 		line-height: 80px;
 	}
 
@@ -235,6 +235,7 @@
 		font-size: 55px;
 		line-height: 70px;
 	}
+	
 
 	.single-slide-item p {
 		font-size: 15px;
@@ -653,11 +654,32 @@
 	}
 
 	.single-slide-item h1 {
-		font-size: 35px;
+		top: 10px;
+		font-size: 25px;
 		line-height: 45px;
+	}
+	.single-slide-item h3 {
+		font-size: 19px;
+         top: -20px;
+	}
+	.robot-registro{
+		width: 35%;
+		
+		
+	}
+	.boton-registro {
+		background: #ffffff;
+		color: #646464;
+		font-size: 16px;
+		padding: 10px 40px;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		border: 2px solid #006fff; /* Borde azul de 2px */
 	}
 
 	.single-slide-item p {
+		top: 1px;
 		font-size: 15px;
 		line-height: 22px;
 	}

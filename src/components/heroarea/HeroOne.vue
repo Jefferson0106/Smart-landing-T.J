@@ -59,7 +59,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="homepage-slides owl-carousel">
+    <div >
  		<div class="single-slide-item">
  			<div class="overlay"></div>
  			<div class="hero-area-content">
@@ -67,18 +67,23 @@ onMounted(() => {
  					<div class="row justify-content-center">
  						<div class="col-lg-12 wow fadeInUp animated" data-wow-delay=".2s">
  							<div class="section-title">
- 								<h6 class="text-white">We Build only big things</h6>
- 								<h1>We are leader<br> Industrial Business</h1>
+ 								<!-----h6 class="text-white">We Build only big things</h6> --->
+ 								<h1>IMPULSA TUS VENTAS<br></h1>
+								<h3>lleva tu negocio al siguiente nivel</h3>
  								<p> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
+								 <button class="boton-registro">Registrate</button>
+								 <img class="robot-registro"  src="/assets/img/Floating-Robot.png" alt="" >
+								
  							</div>
- 							<router-link :to="{name:'about'}" class="main-btn">Learn More</router-link>
+							
+ 							<!---router-link :to="{name:'about'}" class="main-btn">Learn More</router-link>----->
  						</div>
  					</div>
  				</div>
  			</div>
  		</div>
 
- 		<div class="single-slide-item hero-area-bg-2">
+ 		<!---div class="single-slide-item hero-area-bg-2">
  			<div class="overlay"></div>
  			<div class="hero-area-content">
  				<div class="container">
@@ -92,8 +97,49 @@ onMounted(() => {
  							<router-link :to="{name:'about'}" class="main-btn">Learn More</router-link>
  						</div>
  					</div>
- 				</div>
+ 				</div> 
  			</div>
- 		</div>
- 	</div>
+ 		</div>---->
+ 	</div> 
 </template>
+
+<style scoped>
+@media (max-width: 767px) {
+	.boton-registro {
+	background: #ffffff;
+	color: #646464;
+	font-size: 16px;
+	padding: 10px 40px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 2px solid #006fff; /* Borde azul de 2px */
+}
+.robot-registro{
+	width: 55%;
+    position: absolute;
+    top: -103px;
+    left: 60px;
+}
+}
+
+
+@media (min-width: 768px) {
+	.robot-registro{
+	width: 39%;
+	position: absolute;
+	top: -90px;
+	left: 700px;
+}
+.boton-registro {
+	background: #ffffff;
+	color: #646464;
+	font-size: 16px;
+	padding: 10px 40px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 2px solid #006fff; /* Borde azul de 2px */
+}
+}
+</style>

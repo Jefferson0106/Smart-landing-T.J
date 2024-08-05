@@ -8,7 +8,9 @@ TestimonialOne, ChooseOne, BlogOne, CTAOne, } from "../components";
 <template>
     <!---HeaderTop/> --->
     <HeaderOne/>
+
     <HeroOne/>
+    
     <AboutOne/>
     <ServicesOne/>
     <FeatureOne/>

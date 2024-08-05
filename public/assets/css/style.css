@@ -413,21 +413,6 @@ hr {
 
 /*Button Style */
 
-.main-btn {
-	display: inline-block;
-	background: #F35C27;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-	padding: 16px 40px;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	-webkit-transition: .3s;
-	transition: .3s;
-}
 
 .main-btn.btn-2 {
 	background: transparent;
@@ -551,7 +536,7 @@ textarea:focus::-webkit-input-placeholder {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background-color: rgba(3, 15, 39, 0.28);
+	/*background-color: rgba(3, 15, 39, 0.28);*/
 }
 
 .overlay-2 {
@@ -1054,11 +1039,11 @@ textarea:focus::-webkit-input-placeholder {
 ==================*/
 
 .single-slide-item {
-	background-image: url(../img/slider/slide-1.jpg);
+	background-image: url(../img/smartbackground.png);
 }
 
 .hero-area-bg-2 {
-	background-image: url(../img/slider/slide-2.jpg);
+	/*background-image: url(../img/smartbackground.png); */
 }
 
 #home2 .single-slide-item {
@@ -1083,19 +1068,24 @@ textarea:focus::-webkit-input-placeholder {
 	background-color: #ddd;
 	color: #fff;
 	width: 100%;
-	height: 700px;
+	height: 600px;
 	display: table;
 	position: relative;
 	z-index: 1;
 }
 
 .single-slide-item h1 {
-	color: #fff;
-	font-size: 75px;
+	top: -90px;
+	color: #006fff;
+	font-size: 55px;
 	font-weight: 600;
 	line-height: 85px;
 	letter-spacing: -2px;
 	margin: 30px 0;
+}
+.single-slide-item h3 {
+	top: -130px;
+	color: #4a4a4a;
 }
 
 #home2 .single-slide-item {
@@ -1111,7 +1101,8 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .single-slide-item p {
-	color: #fff;
+	top: -100px;
+	color: #82898e;
 	font-size: 16px;
 	line-height: 30px;
 }
