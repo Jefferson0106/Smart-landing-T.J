@@ -135,7 +135,7 @@ onUpdated(() => {
 	.imagen-cel{
 		width: 55%;
 		left: 60px;
-		top: 10px;
+		top: 70px;
 		margin: 20px;
 		position: absolute;
 	}

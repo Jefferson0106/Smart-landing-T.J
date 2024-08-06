@@ -94,7 +94,7 @@ onMounted(async () => {
 	.imagen-cel{
 		left: 60px;
 		width: 30%;
-		top: 130px;
+		top: 160px;
 		margin: 20px;
 		margin: 60px;
 		position: absolute;

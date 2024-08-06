@@ -50,7 +50,7 @@
 	left: -55px;
 	margin: 60px;
 	text-align: center;
-	font-size: 19px;
+	font-size: 15px;
 	white-space: nowrap;
 	color: #006fff;
 }
@@ -78,7 +78,7 @@
 	.imagen-cel{
 		left: 90px;
 		width: 30%;
-		top: 140px;
+		top: 150px;
 		margin: 20px;
 		margin: 10px;
 		position: absolute;
