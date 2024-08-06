@@ -104,7 +104,7 @@ h1{
   border-radius: 10px;
   padding: 30px;
   text-align: center;
-  width: 320px;
+  width: 330px;
 }
 
 .card h2 {

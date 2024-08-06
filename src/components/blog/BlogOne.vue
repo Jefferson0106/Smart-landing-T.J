@@ -124,7 +124,7 @@ img{
 .preguntas-frecuentes {
   
 	position: relative;
-	width: 50%;
+	width: 200%;
 	z-index: 89;
 	}
 
@@ -133,7 +133,7 @@ img{
 	padding: 4rem 1.25rem 6rem;
 	position: relative;
 	overflow: hidden;
-	width: 80%;
+	
 	max-width: 106.25rem;
 }
 
