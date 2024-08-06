@@ -78,7 +78,7 @@
 	.imagen-cel{
 		left: 90px;
 		width: 30%;
-		top: 90px;
+		top: 140px;
 		margin: 20px;
 		margin: 10px;
 		position: absolute;
