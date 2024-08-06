@@ -1,12 +1,12 @@
 <template>
     <div class="about-area section-padding">
  		<div class="container">
-			<h1>Que puedes hacer con SSA?</h1>
+			<h1>¿Qué puedes hacer con Smart Sales?</h1>
  			<div class="row align-items-center">
  				<div class="col-lg-6 col-md-12 col-sm-12">
 					<div class="about-img-wrap">
                     <div class="image-one wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <img class="imagen-cel" src="/assets/img/9560814sized.png" alt="">
+                        <img class="imagen-cel" src="/assets/img/whatsapp.png" alt="">
                     </div>                        
                     <div class="image-two wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
                         <!---img src="/assets/img/about/about-page-2.jpg" alt=""> --->
@@ -17,9 +17,9 @@
  					<div class="info-content-area">
  						<div class="section-title">
  							<!---h6>About Us</h6> --->
- 							<h2 class="h2-titulo"><span class="punto"></span>Atencion Al Cliente Automatizada</h2>
+ 							<h2 class="h2-titulo"><span class="punto"></span>Interacción automática</h2>
  						</div>
- 						<p>We are build construction site lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim et, similique minus soluta ipsum dolor sit, amet consectetur adipisicing elit.</p>
+ 						<p>Optimiza la comunicación con tus clientes mediante nuestro chatbot inteligente, integrado con WhatsApp y potenciado por GPT-4. Responde automáticamente a consultas frecuentes, muestra catálogos y ayuda a tus clientes a realizar pedidos o reservas de citas sin complicaciones.</p>
  						<!---div class="about-list-item mt-30">
 							<p class="highlight">Since our launch in 1995, to deliver high value project.</p>
 							<p class="highlight">We always provide flexible & quality task. </p>
@@ -47,7 +47,7 @@
  @media (max-width: 767px) {
 	h1{
 	top: -60px;
-	left: -10px;
+	left: -55px;
 	margin: 60px;
 	text-align: center;
 	font-size: 19px;
@@ -76,9 +76,9 @@
 		display: table-cell;
 	}
 	.imagen-cel{
-		left: 100px;
-		width: 50%;
-		top: -20px;
+		left: 90px;
+		width: 30%;
+		top: 90px;
 		margin: 20px;
 		margin: 10px;
 		position: absolute;
@@ -122,7 +122,10 @@ h1{
 		display: inline;
 	}
 	.imagen-cel{
-		width: 85%;
+		position: absolute;
+		left: 70px;
+		top: -130px;
+		width: 55%;
 	}
 p{
 	margin: 4px;

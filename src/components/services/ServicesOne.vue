@@ -76,7 +76,7 @@ onUpdated(() => {
  							<!---h6>About Us</h6> --->
 							 <img class="imagen-cel" src="/assets/img/boxes2.png" alt="">
  						</div>
- 						<p>We are build construction site lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim et, similique minus soluta ipsum dolor sit, amet consectetur adipisicing elit.</p>
+ 						<p>Centraliza y organiza toda la información relevante sobre tus productos y servicios. Con Smart Sales, puedes registrar y administrar fácilmente tu inventario, asegurando que tus clientes siempre tengan acceso a la información más actualizada.</p>
  						<!---div class="about-list-item mt-30">
 							<p class="highlight">Since our launch in 1995, to deliver high value project.</p>
 							<p class="highlight">We always provide flexible & quality task. </p>
@@ -133,9 +133,9 @@ onUpdated(() => {
 		display: table-cell;
 	}
 	.imagen-cel{
-		width: 65%;
-		left: 30px;
-		top: -59px;
+		width: 55%;
+		left: 60px;
+		top: 10px;
 		margin: 20px;
 		position: absolute;
 	}
@@ -182,6 +182,7 @@ h1{
 		width: 85%;
 	}
 p{
+	top: 20px;
 	margin: 4px;
 	left: -606px;
 	color: #313131;

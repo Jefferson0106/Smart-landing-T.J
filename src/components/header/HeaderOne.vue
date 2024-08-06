@@ -61,7 +61,7 @@ onMounted(() => {
  									<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
  										<ul class="navbar-nav m-auto">
  											<li class="nav-item">
- 												<a class="nav-link active" href="#">Lorem
+ 												<a class="nav-link active" href="#">Home
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
@@ -73,7 +73,7 @@ onMounted(() => {
  											</li>
 
  											<li class="nav-item">
- 												<a class="nav-link" href="#">Ipsum
+ 												<a class="nav-link" href="#">Conocenos
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
@@ -86,7 +86,7 @@ onMounted(() => {
  												</ul> ---->
  											</li>
  											<li class="nav-item">
- 												<a class="nav-link" href="#">Dolor
+ 												<a class="nav-link" href="#">Contactanos
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
@@ -99,7 +99,7 @@ onMounted(() => {
  											</li>
 
  											<li class="nav-item">
- 												<a class="nav-link" href="#">Sit
+ 												<a class="nav-link" href="#">Planes 
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
@@ -109,19 +109,19 @@ onMounted(() => {
  												</ul> ----->
  											</li>
 
- 											<!----li class="nav-item">
- 												<a class="nav-link" href="#">Blog
+ 											<li class="nav-item">
+ 												<a class="nav-link" href="#">FQAS 
  													<span class="sub-nav-toggler">
  													</span>
  												</a>
- 												<ul class="sub-menu">
+ 												<!---ul class="sub-menu">
  													<li><router-link :to="{name:'blog'}">Blog</router-link></li>
  													<li><router-link :to="{name:'blog-details'}">Blog Details</router-link></li>
- 												</ul>
+ 												</ul>  ---->
  											</li>
- 											<li class="nav-item">
+ 											<!---li class="nav-item">
  												<router-link class="nav-link" :to="{name:'contact'}">Contact</router-link>
- 											</li> ---->
+ 											</li>  ----->
  										</ul>
 
  									</div>

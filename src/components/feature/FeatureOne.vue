@@ -32,9 +32,9 @@ onMounted(async () => {
  					<div class="info-content-area">
  						<div class="section-title">
  							<!---h6>About Us</h6> --->
- 							<h2 class="h2-titulo"><span class="punto"></span>Automatiza procesos de pago</h2>
+ 							<h2 class="h2-titulo"><span class="punto"></span>Automatización de gestión de órdenes y pagos</h2>
  						</div>
- 						<p>We are build construction site lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim et, similique minus soluta ipsum dolor sit, amet consectetur adipisicing elit.</p>
+ 						<p>Simplifica el proceso de pedidos y pagos con nuestra herramienta automatizada. Desde la confirmación del pedido hasta la actualización del estatus de la orden y el seguimiento de pagos, Smart Sales asegura un flujo de trabajo eficiente y transparente.</p>
  						<!---div class="about-list-item mt-30">
 							<p class="highlight">Since our launch in 1995, to deliver high value project.</p>
 							<p class="highlight">We always provide flexible & quality task. </p>
@@ -71,11 +71,11 @@ onMounted(async () => {
 }
 .h2-titulo{
 	top: -80px;
-	left: -10px;
+	left: -40px;
 	color: #006fff;
 	display: flex;
         align-items: center;
-		font-size: 20px;
+		font-size: 14px;
 	margin: 1px;
 	white-space: nowrap;
 	
@@ -92,10 +92,9 @@ onMounted(async () => {
 		display: table-cell;
 	}
 	.imagen-cel{
-		top: -50px;
 		left: 60px;
 		width: 30%;
-		top: 90px;
+		top: 130px;
 		margin: 20px;
 		margin: 60px;
 		position: absolute;
@@ -120,11 +119,11 @@ h1{
 	color: #006fff;
 }
 .h2-titulo{
-	left: -90px;
+	left: -100px;
 	color: #006fff;
 	display: flex;
         align-items: center;
-		font-size: 30px;
+		font-size: 25px;
 	margin: 1px;
 	white-space: nowrap;
 }

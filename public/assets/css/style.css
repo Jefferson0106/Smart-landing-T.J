@@ -393,6 +393,7 @@ hr {
 }
 
 .section-title h2 {
+	color: #ffffff;
 	font-size: 50px;
 	font-weight: 600;
 	line-height: 60px;
@@ -513,7 +514,8 @@ textarea:focus::-webkit-input-placeholder {
 ============== */
 
 .gray-bg {
-	background: #f6f6f6;
+	background-image: url(../img/ouxee.png);
+	background: #006fff;
 }
 
 .white-bg {
@@ -1925,7 +1927,7 @@ p.blog-meta i:before {
 
 
 .footer-area {
-	background: #051232;
+	background: #0070ff;
 	color: #fff;
 }
 
@@ -1936,7 +1938,7 @@ p.blog-meta i:before {
 
 .footer-area p {
 	margin-top: 16px;
-	color: #9aa3b2;
+	color: #313131;
 }
 
 .contact-info p {
@@ -1996,7 +1998,8 @@ p.blog-meta i:before {
 }
 
 .footer-up .social-area a {
-    border: 1px solid #122450;
+	background-color: #ffffff;
+    border: 1px solid #ffffff;
     padding: 10px;
     margin-right: 10px;
 }
@@ -2006,7 +2009,7 @@ p.blog-meta i:before {
 }
 
 .footer-up .social-area i {
-	color: #eee;
+	color: #0070ff;
 	font-size: 21px;
 }
 

@@ -70,8 +70,8 @@ onMounted(() => {
  								<!-----h6 class="text-white">We Build only big things</h6> --->
  								<h1>IMPULSA TUS VENTAS<br></h1>
 								<h3>lleva tu negocio al siguiente nivel</h3>
- 								<p> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
-								 <button class="boton-registro">Registrate</button>
+ 								<p>Descubre cómo nuestra solución de atención al cliente multi-empresa puede <br>transformar la forma en que gestionas tus productos, servicios y clientes.<br> Con Smart Sales, maximiza la eficiencia y mejora la experiencia de tus clientes  <br>con herramientas avanzadas de automatización e integración.</p>
+								 <button class="boton-registro">contactanos </button>
 								 <img class="robot-registro"  src="/assets/img/Floating-Robot.png" alt="" >
 								
  							</div>
